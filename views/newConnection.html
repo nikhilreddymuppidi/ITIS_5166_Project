@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>U Sport Events</title>
+        <link rel="icon" href="./Images/logo.png">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <a href="./index.html"><img src="./Images/logo.png" alt="Logo" height="100" width="200"></a>
+            <nav>
+                <ul>
+                    <li><a href="./newConnection.html">New Event</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Signup</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./connections.html">Events</a></li>
+                </ul>
+        </nav>
+
+        <main>
+            <form action="./connections.html">
+                <table>
+                    <tr>
+                        <td><label for="type">Event Type:</label></td>
+                        <td><input type="text" id="type" name="type" placeholder="Indoor/Outdoor"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="game">Game:</label></td>
+                        <td><input type="text" id="game" name="game" placeholder="Game"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="host">Host:</label></td>
+                        <td><input type="text" id="host" name="host" placeholder="Host Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="details">Details:</label></td>
+                        <td><textarea name="details" id="details" cols="50" rows="3" placeholder="Description"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td><label for="location">Location:</label></td>
+                        <td><input type="text" id="location" name="location" placeholder="Location"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="date">Event Date:</label></td>
+                        <td><input type="date" id="date" name="date"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="start">Start Time:</label></td>
+                        <td><input type="time" id="start" name="start"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="end">End Time:</label></td>
+                        <td><input type="time" id="end" name="end"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="image">Image URL:</label></td>
+                        <td><input type="text" id="image" name="image" placeholder="Image URL"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <button>Create Event</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </main>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#"><img src="./Images/facebook.png" alt="Facebook" height="25" width="25"></a></li>
+                    <li><a href="#"><img src="./Images/instagram.png" alt="Instagram" height="25" width="25"></a></li>
+                    <li><a href="#"><img src="./Images/twitter.png" alt="Twitter" height="25" width="25"></a></li>
+                </ul>
+            </nav>
+        </footer>
+
+    </body>
+</html>
